@@ -1,0 +1,57 @@
+/* ==== Components ==== */
+.sub-title {
+    background-color: var(--orange-color-light);
+    color: var(--orange-color);
+    padding: 0.8rem 2rem;
+    border-radius: 4rem;
+    text-transform: uppercase;
+    font-family: "DMSans-Bold";
+    letter-spacing: .3rem;
+    width: 15rem;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+
+.app-title {
+    font-family: "DMSans-Bold";
+    color: var(--white-color);
+}
+
+.text-blue {
+    color: var(--blue-color);
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-bg {
+    background-color: var(--blue-color);
+}
+
+.btn-bg,
+.btn-border {
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 5rem;
+    border-radius: 4rem 4rem 4rem 1rem;
+}
+
+.btn-border {
+    border: .2rem solid var(--white-color);
+    position: relative;
+}
+
+.btn-border::before {
+    content: "";
+    position: absolute;
+    bottom: -.5rem;
+    left: 1rem;
+    background-color: var(--bg-color);
+    width: 1rem;
+    height: 0.5rem;
+}

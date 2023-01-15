@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url("../fonts/DMSans/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DMSans-Bold";
+    src: url("../fonts/DMSans/DMSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gilory-ExtraBold";
+    src: url("../fonts/Gilory/Radomir Tinkov - Gilroy-ExtraBold.otf") format("truetype");
+}

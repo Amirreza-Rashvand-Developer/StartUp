@@ -1,0 +1,297 @@
+/* ==== Media Queries ==== */
+@media screen and (max-width: 340px) {
+    .mobile-nav__links {
+        flex-direction: column;
+    }
+
+    .blog__category {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .home__links {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .home__link {
+        width: 100%;
+    }
+
+    .home__link:first-child {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .discuss__banner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .feature-item {
+        margin-bottom: 2rem;
+    }
+}
+
+/* ==== Media Queries ==== */
+
+
+@media screen and (min-width: 576px) {}
+
+@media screen and (min-width: 768px) {
+
+    .nav-btn,
+    .mobile-nav {
+        display: none;
+    }
+
+    .cover {
+        opacity: 0;
+    }
+
+    .menu {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .nav {
+        padding: 1.5rem 2rem;
+    }
+
+    .home {
+        flex-direction: row-reverse;
+    }
+
+    .home__title {
+        font-size: 3.6rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .feature__title,
+    .about__title,
+    .clients__title,
+    .article__title,
+    .discuss__title,
+    .footer__title {
+        font-size: 3.6rem;
+    }
+
+    .home__banner {
+        flex-basis: 50%;
+    }
+
+    .home__img {
+        width: 120%;
+    }
+
+    .home__data {
+        flex-basis: 50%;
+        text-align: left;
+    }
+
+    .home__links {
+        justify-content: flex-start;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .about__data {
+        flex-basis: 60%;
+    }
+
+    .about__banner {
+        flex-basis: 50%;
+    }
+
+    .about__data,
+    .about__banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about__title {
+        margin: 0;
+    }
+
+    .about__img {
+        margin-top: -11.2rem;
+    }
+
+    .blog__banner {
+        height: 18rem;
+    }
+
+    .discuss {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .discuss__banner,
+    .discuss__data {
+        flex-basis: 50%;
+    }
+
+    .discuss__data {
+        text-align: left;
+    }
+
+    .discuss__btn {
+        justify-content: flex-start;
+    }
+
+    .discuss__banner {
+        position: relative;
+    }
+
+    .discuss__img {
+        display: inline-block;
+        position: absolute;
+        top: 7.4rem;
+        bottom: 0;
+        left: -7rem;
+        right: 0;
+        margin: auto;
+        width: 83rem;
+    }
+
+    .footer__right {
+        text-align: left;
+    }
+
+    .footer__right,
+    .footer__left {
+        flex-grow: 1;
+        width: 18rem;
+    }
+
+    .footer__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10rem;
+    }
+
+    .footer__links {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu {
+        width: 10rem;
+        flex-grow: 1;
+    }
+
+    .footer__title {
+        display: flex;
+    }
+
+    .footer__sub-title,
+    .footer__title {
+        margin-left: 0;
+    }
+
+    .footer__social {
+        justify-content: flex-start;
+    }
+
+    .home__shape-one {
+        top: 6rem;
+        left: 8rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav__links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav__link--bg,
+    .nav__link--border {
+        width: 14rem;
+    }
+
+    .home__title {
+        font-size: 5.5rem;
+        margin-bottom: 3rem;
+        max-width: 55rem;
+    }
+
+    .feature__title,
+    .about__title,
+    .clients__title,
+    .article__title,
+    .discuss__title,
+    .footer__title {
+        font-size: 4rem;
+    }
+
+    .feature__title {
+        max-width: 42rem;
+    }
+
+    .home__text {
+        margin-bottom: 2rem;
+        max-width: 45rem;
+    }
+
+    .home__banner {
+        flex-basis: 50%;
+    }
+
+    .home__data {
+        flex-basis: 60%;
+    }
+
+    .home__img {
+        width: 130%;
+    }
+
+    .ellips {
+        width: 80%;
+    }
+
+    .about__img {
+        margin-top: -4.34rem;
+    }
+
+    .discuss__img {
+        top: -3.8rem;
+        width: 107rem;
+        left: -8rem;
+    }
+
+    .discuss__title {
+        max-width: max-content;
+        margin: 0;
+    }
+
+    .home__shape-one {
+        top: 10rem;
+        left: 10rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about__img {
+        margin-top: -5.22rem;
+    }
+
+    .discuss__img {
+        top: -7.8rem;
+        width: 120rem;
+        left: -8rem;
+    }
+
+    .home__shape-one {
+        top: 12rem;
+        left: 12rem;
+    }
+}
