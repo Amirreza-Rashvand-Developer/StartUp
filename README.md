@@ -1,7 +1,5 @@
 # Responsive Website StartUp
 
-**Responsive Website StartUp**
-
 ![viewfinal](https://github.com/Amirreza-Rashvand-Developer/StartUp/blob/main/preview.jpg)
 
 - [Demo Project](https://Amirreza-Rashvand-Developer.github.io/StartUp/)
