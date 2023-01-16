@@ -2,7 +2,7 @@
 
 ![viewfinal](https://github.com/Amirreza-Rashvand-Developer/StartUp/blob/main/preview.jpg)
 
-- [Demo Project](https://Amirreza-Rashvand-Developer.github.io/StartUp/)
+- [Demo Project](https://amirreza-rashvand-developer.github.io/StartUp/)
 
 - Developed by amirreza rashvand
 
